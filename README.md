@@ -23,7 +23,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Library Used
 ---
-**P.S**:*For installation of required library or modules refer [requirement.txt](https://github.com/Pratik-Nikam/Demo-DRF/blob/master/requirements.txt) file and directly install using following command*
+**P.S**:*For installation of required library or modules refer [requirement.txt](https://github.com/Pratik-Nikam/django-mptt/blob/master/requirements.txt) file and directly install using following command*
 		$ pip install -r requirements.txt
 
 ### Prerequisites/Requirements
@@ -33,10 +33,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Project Description
 ---
-This project has api's created for list User Database with there activiy timings .
-Following are the API's created under this project.
+This project usage django-mptt to build tree like model-data view.
+Admin models views has been modified to have view like tree. Admin can access tree structure 
+and move model data around nodes using draggable feature of django-mptt.
 
-* **Activity Master**: Activity Details of Users
+Following are the sample urls deployed 
+* https://djangotree.herokuapp.com/treeview/genres/ : Tree View in template
+* https://djangotree.herokuapp.com/: Dashboard 
 
 ### Data Source
 ---
@@ -67,7 +70,7 @@ Following are the API's created under this project.
 
 ## Built With
 
-* [Django Rest Framework](https://www.django-rest-framework.org) - The web framework used
+* [Django](https://www.djangoproject.com/) - The web framework used
 
 
 ## Contributing
